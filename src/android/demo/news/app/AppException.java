@@ -25,6 +25,7 @@ import android.os.Looper;
 import android.widget.Toast;
 
 public class AppException extends Exception implements UncaughtExceptionHandler {
+	private static final long serialVersionUID = 1L;
 
 	private final static boolean Debug = false;// 是否保存错误日志
 
